@@ -38,7 +38,7 @@ public class Main {
         System.out.println(misa + " " + misa.fear() + ", " + misa.afraid() + " и " + misa.see() + " " + hair.description(1) + ", " + hair.description(2) + " и " + hair.description(3));
         System.out.println(snork + " " + snork.suffered());
         System.out.println(snork + " " + shake_.shake());
-        System.out.println(snork + " " + take_.take() + " и " + out_.out()); // snork.take() +
+        System.out.println(snork + " " + take_.take() + " и " + out_.out());
         snork.setEnd(true);
         try {
             if (endStory(snork)) {
